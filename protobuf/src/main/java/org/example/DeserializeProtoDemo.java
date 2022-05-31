@@ -11,7 +11,7 @@ public class DeserializeProtoDemo {
     public static void main(String[] args) {
         InputStream is = null;
         try{
-            Department department1 = Department.parseFrom(new FileInputStream("/Users/g0s051y/gitws/java/protobuf/department/department1"));
+            Department department1 = Department.parseFrom(new FileInputStream("./department/department1"));
             System.out.println(department1.toString());
         }catch(FileNotFoundException e){
 

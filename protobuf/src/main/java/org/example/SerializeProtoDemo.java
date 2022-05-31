@@ -36,7 +36,7 @@ public class SerializeProtoDemo {
         System.out.println(department.toString());
 
         try{
-            department.writeTo(new FileOutputStream("/Users/g0s051y/gitws/java/protobuf/department/department1"));
+            department.writeTo(new FileOutputStream("./department/department1"));
         }catch(FileNotFoundException e){
 
         }catch (IOException e){
