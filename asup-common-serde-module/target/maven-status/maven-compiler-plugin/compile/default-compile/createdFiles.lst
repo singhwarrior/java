@@ -1,0 +1,14 @@
+com/netapp/asup/serde/common/proto/AggregateOuterClass$Aggregate.class
+com/netapp/asup/serde/common/Test.class
+com/netapp/asup/serde/common/Main.class
+com/netapp/asup/serde/common/ConsumerDemo.class
+com/netapp/asup/serde/common/proto/AggregateOuterClass$Aggregate$Builder.class
+com/netapp/asup/serde/common/proto/AggregateOuterClass$1.class
+com/netapp/asup/serde/common/proto/AggregateOuterClass$AggregateOrBuilder.class
+com/netapp/asup/serde/common/proto/AggregateOuterClass$Counter$1.class
+org/example/App.class
+com/netapp/asup/serde/common/proto/AggregateOuterClass$Aggregate$1.class
+com/netapp/asup/serde/common/proto/AggregateOuterClass$CounterOrBuilder.class
+com/netapp/asup/serde/common/proto/AggregateOuterClass.class
+com/netapp/asup/serde/common/proto/AggregateOuterClass$Counter$Builder.class
+com/netapp/asup/serde/common/proto/AggregateOuterClass$Counter.class

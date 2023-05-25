@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_package = "com.netapp.asup.serde.common.proto";
+
+//message Counter {
+message Aggregate {
+  // Field sequence from 1 to 15 takes 1 byte and from 16 through 2047 takes two bytes, so more frequently message
+  // elements should be used here. And non frequent ones should be used latter.
+
+  string object_name = 1;
+  int64 prev_timestamp = 2;
+  int64 current_timestamp = 3;
+  string instance_name = 4;
+  repeated Counter counters = 5;
+  // Map<String, String> counters
+
+}
+
+message Counter {
+  string counter_name = 1;
+  int64 prev_value = 2;
+  int64 current_value = 3;
+}
+
+//message Counters{
+//  repeated  Counter counter;
+//}
+
